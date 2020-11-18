@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html viewsource="no">
+    <head>
+        <title><%= title %></title>
+        <link rel="icon" href="/images/Icono.png" type="image/gif" sizes="16x16">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/index.css">
+        <link rel="stylesheet" href="/stylesheets/header.css">
+        <script src="/javascripts/scripts.js"></script>
+    </head>
+    <body class="body">
+        <!-- Page Info -->
+        <div class="page-info">
+            <p>Somos una pagina de información, NO somos una tienda!</p>
+        </div>
+
+        <!-- Header -->
+        <%- include('./partials/header.ejs') %>
+
+        <!-- Sliders -->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/Slider/Slider1.png" alt="Banner-Slider1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/Slider/Slider2.jpg" alt="Banner-Slider2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Suplementos -->
+        <div class="container-fluid">
+            <div class="row suplements">
+                <div class="col-xl-1 col-lg-1 col-md-1"></div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 suplement">
+                    <a href="/aminoacidos"><img src="/images/Suplementos/Aminoacido.png" alt="Pote-Aminoacido"><br><span>Aminoacidos</span></a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 suplement">
+                    <a href="/proteina"><img src="/images/Suplementos/Proteina.png" alt="Pote-Proteina"><br><span>Proteina</span></a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 suplement">
+                    <a href="/nootropicos"><img src="/images/Suplementos/Neuron.png" alt="Pote-Nootropicos"><br><span class="title-Nootropicos">Nootropicos</span></a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 suplement">
+                    <a href="/pre-entreno"><img src="/images/Suplementos/Pre-Entreno.png" alt="Pote-Pre-Entreno"><br><span>Pre-Entreno</span></a>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 suplement">
+                    <a href="/creatina"><img src="/images/Suplementos/Creatina.png" alt="Pote-Creatina"><br><span>Creatina</span></a>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1"></div>
+            </div>
+        </div>
+
+        <!-- BOOTSTRAP -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    </body>
+</html>

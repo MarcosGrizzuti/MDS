@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error</title>
+        <link rel="icon" href="/images/Icono.png" type="image/gif" sizes="16x16">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/header.css">
+        <link rel="stylesheet" href="/stylesheets/index.css">
+        <script src="/javascripts/scripts.js"></script>
+    </head>
+    <body class="body">
+        <!-- Page Info -->
+        <div class="page-info">
+            <p>Somos una pagina de información, NO somos una tienda!</p>
+        </div>
+
+        <!-- Header -->
+        <%- include('./partials/header.ejs') %>
+
+        <!-- Main Error -->
+        <div class="error-handler">
+            <h1>Parece que no encontramos lo que estas buscando.</h1>
+            <h2>Aprete aqui para volver al inicio:</h1>
+            <div>
+                <a href="/">Inicio</a>
+            </div>
+        </div>
+
+        <!-- BOOTSTRAP -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    </body>
+</html>

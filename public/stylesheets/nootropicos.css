@@ -1,0 +1,84 @@
+.title, .sub-title, .product-intext {
+    color: rgb(227, 197, 63);
+}
+
+.aditional-info {
+    color: white;
+}
+
+.product-desc-special {
+    color: gray;
+}
+
+.logo {
+    background-image: url(../images/Logo2.png);
+}
+
+.components-list ul li a {
+    color: white;
+}
+
+.components-list ul li a:hover, .components-list ul li:hover {
+    color: rgb(227, 197, 63);
+}
+
+.BackToTop {
+    display: flex;
+    align-items: center;
+}
+
+.BackToTopButton {
+    background-color: rgb(227, 197, 63);
+    height: 35px;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 40px;
+}
+
+.BackToTopButton:hover {
+    color: white;
+}
+
+.product-desc {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    * {
+        font-size: 8px;
+    }
+
+    .BackToTopButton {
+        height: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    * {
+        font-size: 7px;
+    }
+
+    .BackToTopButton {
+        height: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    * {
+        font-size: 6px;
+    }
+
+    .BackToTopButton {
+        height: 15px;
+        margin-left: 20px;
+    }
+}

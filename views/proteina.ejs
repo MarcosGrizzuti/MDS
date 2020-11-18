@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="icon" href="/images/Icono.png" type="image/gif" sizes="16x16">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/suplementos.css">
+        <link rel="stylesheet" href="/stylesheets/header.css">
+        <script src="/javascripts/scripts.js"></script>
+    </head>
+    <body class="body">
+        <!-- Page Info -->
+        <div class="page-info">
+            <p>Somos una pagina de información, NO somos una tienda!</p>
+        </div>
+
+        <!-- Header -->
+        <%- include('./partials/header.ejs') %>
+
+        <!-- Banner -->
+        <div class="product-banner">
+            <img src="/images/Banners/Proteina.jpg" alt="Banner-Proteina">
+        </div>
+
+        <!-- Products Desc -->
+        <div class="products-desc">
+            <h1 class="title">Proteinas</h1>
+            <h3 class="sub-title">¿Qué son las proteínas?</h3>
+            <p class="paragraphs">Las proteínas son moléculas formadas por aminoácidos que están unidos por un tipo de enlaces conocidos como enlaces peptídicos. El orden y la disposición de los aminoácidos dependen del código genético de cada persona. Todas las proteínas están compuestas por: <span class="product-intext">Carbon, Hidrógeno, Oxigeno y Nitrógeno</span>.</p>
+            <p class="paragraphs">Y la mayoría contiene además azufre y fósforo. Las proteínas suponen aproximadamente la mitad del peso de los tejidos del organismo, y están presentes en todas las células del cuerpo, además de participar en prácticamente todos los procesos biológicos que se producen.</p>
+
+            <h3 class="sub-title">Funciones de las proteínas</h3>
+            <p class="paragraphs">De entre todas las biomoléculas, las proteínas desempeñan un papel fundamental en el organismo. Son esenciales para el crecimiento, gracias a su contenido de nitrógeno, que no está presente en otras moléculas como grasas o hidratos de carbono. También lo son para las síntesis y mantenimiento de diversos tejidos o componentes del cuerpo, como los jugos gástricos, la hemoglobina, las vitaminas, las hormonas y las enzimas (estas últimas actúan como catalizadores biológicos haciendo que aumente la velocidad a la que se producen las reacciones químicas del metabolismo). Asimismo, ayudan a transportar determinados gases a través de la sangre, como el oxígeno y el dióxido de carbono, y funcionan a modo de amortiguadores para mantener el equilibrio ácido-base y la presión oncótica del plasma.</p>
+            <p class="paragraphs">Otras funciones más específicas son, por ejemplo, las de los anticuerpos, un tipo de proteínas que actúan como defensa natural frente a posibles infecciones o agentes externos; el colágeno, cuya función de resistencia lo hace imprescindible en los tejidos de sostén o la miosina y la actina, dos proteínas musculares que hacen posible el movimiento, entre muchas otras.</p>
+
+            <!-- Product Desc -->
+            <div class="product-desc">
+                <h3 class="sub-title">TOP Proteinas importadas:</h3>
+                <h5 class="product-title">1 - Proteína Optimum Nutrition Gold Standard 9.8</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina1.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina1.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*Cada porción proporciona 24 gramos de proteína de suero de leche de rápida digestión con bajos niveles de grasa.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>10 años consecutivos de calidad premiada la marca de nutrición deportiva más confiable del mundo.</li>
+                    <li>Complementa su proteína con 5,5 gramos de BCAA de origen natural , 4 gramos de glutamina y ácido glutámico naturales.</li>
+                    <li>Se mezcla muy fácilmente usando solo un vaso y una cuchara.</li>
+                    <li>Más de 20 sabores diferentes para elegir.</li>
+                </ul>
+
+                <h5 class="product-title">2 - ISO100 Hydrolyzed Whey Protein Isolate</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina2.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina2.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*ISO100® es simplemente combustible para desarrollar músculos. Cada ración contiene 25 gramos de proteína.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Complementa su proteína con 5,5 g de BCAA que incluyen 2,7 g de L-leucina.</li>
+                    <li>ISO100 está elaborado con fuentes de proteínas pre hidrolizadas para garantizar una rápida digestión y absorción.</li>
+                    <li>SO100 está formulado mediante un proceso de purificación de múltiples pasos de microfiltración de flujo cruzado que conserva importantes fracciones de proteínas para el desarrollo muscular mientras elimina el exceso de carbohidratos, grasas, lactosa y colesterol.</li>
+                </ul>
+
+                <h5 class="product-title">3 - Syntha-6 Whey Protein Powder</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina3.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina3.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*SYNTHA-6® es una de proteína de suero de leche ultra premium con 22 gramos de proteína por porción y la proteína BSN de mejor sabor del mercado.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>La fórmula de SYNTHA-6 aporta 10 gramos de aminoácidos esenciales.</li>
+                    <li>Syntha-6 de BSN contiene 6 tipos diferentes de proteínas y es mucho más poderoso que la simple whey con un pico plasmático de aminoácidos de sólo 30 minutos.</li>
+                    <li>Syntha-6 contiene un 0% de grasas saturadas.</li>
+                </ul>
+
+                <h5 class="product-title">4 - Nitro Tech Ripped Whey Protein</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina4.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina4.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*Nitro-Tech® aporta 30 gramos de proteína de acción rápida. Ayuda también a la pérdida de peso, respaldado científicamente con CLA, MCT, L-tartrato de L-carnitina.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>30 g de proteína de suero de acción rápida.</li>
+                    <li>Potente y precisamente dosificado con CLA, L-carnitina y aceite MCT.</li>
+                    <li>Combina los mejores péptidos de suero de leche y aislado con C. canephora robusta, un ingrediente para bajar de peso científicamente probado.</li>
+                </ul>
+
+                <h5 class="product-title">5 - Pro JYM Protein Powder</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina5.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina5.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*JYM® otorga 24 gramos de proteína pura y de calidad en cada servicio sin aminoácidos ni nutrientes de relleno añadidos.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Posee tres tipos de proteínas en sus cuatro formas distintas: aislado de proteína de suero (7,5 gramos), caseína micelar (7 gramos), albúmina de huevo (2,5 gramos) y aislado de proteína de leche (7 gramos = 5,5 gramos de caseína + 1,5 gramos de suero).</li>
+                    <li>JYM aprovecha los beneficios de acción rápida de Whey Isolate y luego extiende estos beneficios hasta 3 horas más.</li>
+                    <li>160 calorías por cada servicio.</li>
+                </ul>
+
+                <h5 class="product-title">6 - MICROPURE Whey Protein Isolate</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina6.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina6.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*MICROPURE® aporta 25 gramos de proteína 100% Isolada por servicio sin picos de aminoácidos, mezclas de proteínas o concentrados, y sin colorantes ni colorantes añadidos.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Absorción de proteínas sobrealimentada con tecnología de enzimas digestivas ProHydrolasa.</li>
+                    <li>Menos de 1 gramo de azúcar y grasa por ración.</li>
+                    <li>Aporta 5.5g de Aminoácidos esenciales.</li>
+                </ul>
+
+                <h5 class="product-title">7 - Combat Whey Protein Powder</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina7.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina7.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*MUSCLE PHARM® aporta 25 gramos de proteínas por cada servicio (GLUTEN FREE) Los científicos de MusclePharm® fortificaron Combat Protein Powder con una variedad de mezclas de proteínas que se digieren a diferentes velocidades, lo que ayuda a alimentar los músculos por más tiempo. La mezcla digestiva de gran sabor y fácil mezcla está ajustada para una verdadera utilización de nutrientes, un paso adelante en la tecnología de proteína en polvo.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Cargado con una variedad de proteínas para alimentar los músculos por hasta 8 horas.</li>
+                    <li>Contiene Aminoacidos y Glutamina.</li>
+                    <li>Posee concentrados, hidrolizados y aislados de proteína de suero, albúmina de huevo y caseína micelar.</li>
+                </ul>
+
+                <h5 class="product-title">8 - COR-Performance Whey</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina8.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina8.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*COR-Performance® es una fuente óptima de proteínas cuando busca mantener la masa muscular magra, reponer los nutrientes después de un entrenamiento y satisfacer su gusto por lo dulce sin sentirse culpable. Aporta 24 gramos de proteína de acción rápida por servicio.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>La mezcla es superior al 51% de WPI frente al concentrado de suero.</li>
+                    <li>Cargado con 5.2 gramos de BCAAs.</li>
+                    <li>Cor-Performance Whey ha sido enriquecida además con dos enzimas digestivas, Proteasa y lactas.</li>
+                </ul>
+
+                <h5 class="product-title">9 - 100% Whey Protein Isolate</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina9.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina9.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*100% Isolate Protein® está elaborado con un proceso de microfiltración de flujo cruzado con triple filtrado que evita que la estructura de la proteína se desnaturalice, lo que permite mantener el perfil de aminoácidos nativos y las facciones de proteínas mientras elimina el exceso de impurezas. EVL® aporta 25 gramos de proteína 100% proteína aislada por servicio.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Cargado con 6 gramos de BCAAs.</li>
+                    <li>100 calorias por scoop.</li>
+                    <li>100% Proteina Isolada que aumenta los efectos anabólicos del entrenamiento con pesas porque proporciona 6 gramos de aminoácidos.</li>
+                </ul>
+
+                <h5 class="product-title">10 - Animal Whey</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina10.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina10.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*Animal Whey® aporta 25 gramos de Proteina Isolada.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Animal Whey también contiene una selección de enzimas digestivas, compuesta por papaína y bromelina para mejorar la absorción de proteína.</li>
+                    <li>Contiene 1 gramo de Azúcar por servicio.</li>
+                    <li>No posee aminoácidos añadidos, en buena parte para evitar cualquier sospecha de amino spking.</li>
+                </ul>
+
+                <h3 class="sub-title">TOP Proteinas nacionales:</h3>
+
+                <h5 class="product-title">1 - PLATINUM WHEY</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina11.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina11.png" alt="Proteina-Etiqueta">
+                <p p class="product-info">*Platinum Whey ®  Compuesta por ultra concentrado, aislado e hidrolizado de suero de máxima pureza, obtenidos por métodos no agresivos que garantizan la calidad y estabilidad del producto. Otorga 25 gramos de proteína por servicio.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>100% NATURAL GRASS FED PROTEIN.</li>
+                    <li>Fuente natural de aminoácidos esenciales, aminoácidos de cadena ramificada y Glutamina.</li>
+                    <li>Posee la más pura proteína de suero microfiltrada a baja temperatura y ultrafiltrado para asegurar la más alta calidad.</li>
+                </ul>
+
+                <h5 class="product-title">2 - TRUE MADE WHEY PROTEIN ENA</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina12.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina12.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*True Made Whey® Contiene un blend de máxima pureza con una rápida absorción y una excelente calidad, garantizando una efectiva y rápida recuperación del tejido muscular. Perfil completo de aminoácidos esenciales, brindando la mejor calidad de proteínas para aumentar la energía durante el entrenamiento. Otorga 25 gramos de proteína por servicio.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Brinda un servicio de BCAAs con 13,5 gramos por servicio.</li>
+                    <li>123 calorías por servicio.</li>
+                    <li>Recuperación muscular instantánea.</li>
+                </ul>
+
+                <h5 class="product-title">3 - ADVANCED WHEY xtrenght</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina13.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina13.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*Esta proteína de Advance® posee la mejor calidad y pureza del mercado Argentino, gracias a que contiene Whey Protein Isolate (WPI), la proteína de suero de mayor pureza a nivel mundial, Whey Protein Hydrolysate (WPH), la de asimilación más rápida y Whey Protein Concentrate (WPC), la más equilibrada. Juntas son una combinación perfecta, resultando un producto de enorme calidad, con elevada asimilación asegurándose una rápida recuperación y crecimiento muscular. Nos otorga 24 gramos de proteína por servicio.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Favorece el crecimiento y la regeneración muscular.</li>
+                    <li>Incrementa la fuerza y la resistencia.</li>
+                    <li>Libre de Gluten.</li>
+                </ul>
+
+                <h5 class="product-title">4 - Nutrilab WHEY PRO 2.0</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina14.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina14.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*WHEY PRO 2.0® está constituida por proteínas de excelente calidad, las del suero lácteo, y vitaminas, en concentraciones que proporcionan un rendimiento físico óptimo. La combinación perfecta de aminoácidos esenciales y de rápida absorción, genera la base para la preservación y la recuperación de la masa muscular. Nos otorga 21 gramos de proteína por servicio.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Ayuda a acelerar la reconstrucción y la recuperación.</li>
+                    <li>Contiene vitamina c y todo el complejo de vitaminas del grupo b.</li>
+                    <li>170 calorías  por servicio.</li>
+                </ul>
+
+                <h5 class="product-title">5 - HTN USA PROTEIN</h5>
+                <img src="/images/Suplementos/Proteinas/PoteProteina15.png" alt="Proteina-Pote">
+                <img src="/images/Suplementos/Proteinas/DescProteina15.png" alt="Proteina-Etiqueta">
+                <p class="product-info">*USA Whey Protein HTN® es un complejo proteico totalmente natural que se extrae del suero de la leche. Es considerado el nutriente primordial para el crecimiento y desarrollo del músculo. Está formulado para suplementar a toda persona, especialmente deportistas que quieran desarrollar su capacidad muscular y tonificar su cuerpo sin incorporar grasas. Nos otorga 18 gramos de proteína.</p>
+                <div class="aditional-info">Informacion adicional:</div>
+                <ul class="aditional-info-list">
+                    <li>Estudios realizados por la FDA y el USDEC en USA han demostrado que las proteínas utilizadas por HTN® tienen un grado de asimilación promedio del 70% al 100%, superior a otras proteínas que apenas alcanzan el 40%.</li>
+                    <li>Desarrollo de masa muscular.</li>
+                    <li>Otorga 9 vitaminas.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- BOOTSTRAP -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    </body>
+</html>

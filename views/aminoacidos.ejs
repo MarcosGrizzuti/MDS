@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><%= title %></title>
+        <link rel="icon" href="/images/Icono.png" type="image/gif" sizes="16x16">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/suplementos.css">
+        <link rel="stylesheet" href="/stylesheets/header.css">
+        <script src="/javascripts/scripts.js"></script>
+    </head>
+
+    <body class="body">
+        <!-- Page Info -->
+        <div class="page-info">
+            <p>Somos una pagina de información, NO somos una tienda!</p>
+        </div>
+
+        <!-- Header -->
+        <%- include('./partials/header.ejs') %>
+
+        <!-- Banner -->
+        <div class="product-banner">
+            <img src="/images/Banners/Aminoacido.jpg" alt="Aminoacido-Banner">
+        </div>
+
+        <!-- Products Desc -->
+        <div class="products-desc">
+            <h1 class="title">Aminoacidos</h1>
+            <h3 class="sub-title">¿Qué son los aminoacidos?</h3>
+            <p class="paragraphs">Los aminoácidos son componentes de las proteínas, y son las últimas moléculas en las que se transforman los elementos proteicos después de la digestión. Tras ser absorbidas, atraviesan la pared intestinal para poder ejercer sus funciones en el organismo. De todos los aminoácidos presentes en la naturaleza, los aminoácidos de cadena ramificada son la valina, la leucina y la isoleucina, y su nombre tiene que ver con la disposición espacial de su molécula, ya que estos tres aminoácidos no tienen forma lineal. También se los conoce por su denominación con las siglas en inglés BCAAs.</p>
+
+            <h3 class="sub-title">¿Para qué sirven los aminoacidos?</h3>
+            <p class="paragraphs">La función principal de los BCAA es contribuir en la formación de proteínas en el organismo y ayudar con la recuperación muscular, especialmente cuando has trabajado con ejercicios físicos enfocados en los músculos, y la disminución de la sensación de fatiga. Por ello, es un tipo de compuesto muy habitual en la suplementación deportiva. También puede favorecer el desarrollo de la musculatura, preservar los niveles de glucógeno, apoyar el sistema inmunitario y producir energía, entre otras funciones.</p>
+
+            <h3 class="sub-title">¿Dondé encontramos los aminoacidos?</h3>
+            <p class="paragraphs">Estos están presentes en ingredientes de origen animal como <span class="product-intext">los lácteos, los huevos, el pescado azul, el pescado blanco, el marisco y la carne magra</span>. En el caso de seguir una <span class="product-intext">dieta vegetariana</span> o no consumir los alimentos que acabamos de citar, sean cuales sean los motivos, puedes obtener los BCAA mediante la soja, las alubias, las lentejas, el trigo entero e incluso los frutos secos, ya que las verduras y las frutas tienen un contenido de estos aminoácidos muy escaso. En este sentido, la suplementación también es una opción.</p>
+
+            <!-- Product Desc -->
+            <div class="product-desc">
+            <h3 class="sub-title">TOP Aminoacidos nacionales:</h3>
+            <h5 class="product-title">1 - ENA Sport RELOAD</h5>
+            <img src="/images/Suplementos/Aminoacidos/PoteAmino1.png" alt="Aminoacido-Pote">
+            <img src="/images/Suplementos/Aminoacidos/PoteDesc1.png" alt="Aminoacido-Etiqueta">
+            <p class="product-info">*Reload® para después de entrenar, aporta aminoácidos de cadena ramificada ( BCAA ) permitiendo disparar la síntesis proteica, fundamental en el crecimiento muscular. Evita la destrucción de la masa muscular y proporciona energía a los músculos.</p>
+            <div class="aditional-info">Informacion adicional:</div>
+            <ul class="aditional-info-list">
+                <li>Aporta 4 gramos de BCAAs.</li>
+                <li>Aporta 2 gramos de Leucina.</li>
+                <li>L-valina que proporciona energía a los músculos, aumentando la resistencia durante el entrenamiento.</li>
+            </ul>
+
+            <h5 class="product-title">2 - STAR NUTRITION mtor BCAA</h5>
+            <img src="/images/Suplementos/Aminoacidos/PoteAmino2.png" alt="Aminoacido-Pote">
+            <img src="/images/Suplementos/Aminoacidos/PoteDesc2.png" alt="Aminoacido-Etiqueta">
+            <p class="product-info">*Mtor BCAA® ha sido solicitados a raíz de su doble acción anabólica y anticatabólica. Cuando se trata de diversidad de aminoácidos, pocos pueden compararse con la importancia de los aminoácidos de cadena ramificada presentes en él.</p>
+            <div class="aditional-info">Informacion adicional:</div>
+            <ul class="aditional-info-list">
+                <li>Recuperación muscular más rápida.</li>
+                <li>L-Leucina, L-Glutamina, L-Citrulina Malato, Ácido Cítrico, L-Valina, L-Isoleucina, Sodio Citrato.</li>
+                <li>Sirve para retrasar la fatiga, mejorar el rendimiento y como anticatabólico, para evitar que utilices la proteína del músculo como energía.</li>
+            </ul>
+
+            <h5 class="product-title">3 - HYDRO BCAA xtrenght</h5>
+            <img src="/images/Suplementos/Aminoacidos/PoteAmino3.png" alt="Aminoacido-Pote">
+            <img src="/images/Suplementos/Aminoacidos/PoteDesc3.png" alt="Aminoacido-Etiqueta">
+            <p class="product-info">*Te presentamos Hydro BCAA PRO ®, el aminoácido de cadena ramificada de mejor disolución, asimilación y sabor de la Argentina. Poseé 6 gramos de BCAA por porción con un ratio 4:1:1.</p>
+            <div class="aditional-info">Informacion adicional:</div>
+            <ul class="aditional-info-list">
+                <li>Es potenciado con Beta Alanina y L-Citrulina permitiéndote que entrenes por más tiempo y te recuperes más rápido. Ideal para la recuperación post actividad física y para el desarrollo muscular.</li>
+                <li>Unico del mercado que está potenciado con Beta Alanina, un desfatigante muscular.</li>
+                <li>Máxima regeneración muscular.</li>
+            </ul>
+
+            <h5 class="product-title">4 - Bcaa POWDER body advance</h5>
+            <img src="/images/Suplementos/Aminoacidos/PoteAmino4.png" alt="Aminoacido-Pote">
+            <img src="/images/Suplementos/Aminoacidos/PoteDesc4.png" alt="Aminoacido-Etiqueta">
+            <p class="product-info">*BCAA POWDER® Suplemento compuesto por leucina, valina, e isoleucina con vitamina B6 para ayudar en su absorción y vitamina C como poderoso antioxidante. Contribuye a evitar el catabolismo muscular.</p>
+            <div class="aditional-info">Informacion adicional:</div>
+            <ul class="aditional-info-list">
+                <li>Ayuda a mejorar los entrenamientos.</li>
+                <li>Aporta energìa en entrenamientos de alto esfuerzo e impacto.</li>
+                <li>Colabora en mejorar la recuperación, fuerza y resistencia.</li>
+            </ul>
+
+            <h5 class="product-title">5 - Bcaa 2000 Nutrilab</h5>
+            <img src="/images/Suplementos/Aminoacidos/PoteAmino5.png" alt="Aminoacido-Pote">
+            <img src="/images/Suplementos/Aminoacidos/PoteDesc5.png" alt="Aminoacido-Etiqueta">
+            <p class="product-info">*BCAA 2000® es un compuesto de aminoácidos ramificados. Los aminoácidos ramificados (branched chain amino acid o BCAAs) son tres aminoácidos esenciales, es decir que el organismo humano no los puede fabricar y deben ser administrados desde el exterior mediante la dieta o la suplementación. Contiene la proporción idónea 1-1-1, numerosos estudios han demostrado que esta proporción tiene una mayor efectividad para un aporte máximo de BCAAs con la máxima efectividad posible.</p>
+            <div class="aditional-info">Informacion adicional:</div>
+            <ul class="aditional-info-list">
+                <li>Estimula la construcción del tejido muscular dañado durante los episodios prolongados de ejercicio intenso.</li>
+                <li>Contiene vitaminas B3, B6, B12 y C.</li>
+                <li>Favorecen la construcción muscular.</li>
+            </ul>
+            </div>
+        </div>
+
+        <!-- BOOTSTRAP -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    </body>
+</html>
